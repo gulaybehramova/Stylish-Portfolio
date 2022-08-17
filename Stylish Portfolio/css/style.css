@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu {
+    color: white;
+    background-color: #b6aeae;
+    padding: 15px;
+    font-size: 18px;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    border-radius: 5px;
+}
+
+.menu:hover {
+    background-color: rgb(65, 63, 63);
+    cursor: pointer;
+}
+
+.arrow {
+    color: white;
+    background-color: #b6aeae;
+    padding: 20px;
+    font-size: 18px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    border-radius: 5px;
+}
+
+.arrow:hover {
+    background-color: rgb(65, 63, 63);
+    cursor: pointer;
+}
+
+.first {
+    color: #212529;
+    text-align: center;
+    padding: 22.5rem 0;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first h1 {
+    margin-bottom: 10px;
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.first h3 {
+    font-size: 28px;
+    margin-bottom: 4rem;
+}
+
+.first a {
+    color: #FFFFFF;
+    background-color: #1D809F;
+    text-decoration: none;
+    padding: 1.5rem 2.5rem;
+    border-radius: 5px;
+}
+
+.second {
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.second h2 {
+    color: #212529;
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+}
+
+.second p {
+    margin-bottom: 4rem;
+}
+
+.Unsplash {
+    /*a nin altindaki xett basqa rengdir a basqa*/
+    cursor: pointer;
+    text-decoration: underline;
+    /* -webkit-text-decoration-color:#1D809F; */
+    text-decoration-color: #1D809F;
+    color: black;
+}
+
+.offer {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #212529;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.third {
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem 0;
+}
+
+.third h2 {
+    color: #212529;
+    font-size: 56px;
+    margin-bottom: 4rem;
+}
+
+.third a {
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: #1D809F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fifth {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.fifth-text {
+    text-align: center;
+}
+
+.fifth-text h3 {
+    color: #ECB807;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.fifth-text h2 {
+    color: #212529;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+.fifth-boxs {
+    width: 80%;
+    /*qiraqlardan mesafe olsun boxlar ortada dursun*/
+    margin: auto;
+}
+
+.fifth-box {
+    float: left;
+    width: 50%;
+    /*1sekil ekranin yarisini tutsun deye*/
+    position: relative;
+    transition: .4s;
+}
+
+.fifth-box:hover {
+    transform: scale(.8);
+    /*Boyutmek,Kiciltmek ucun scale istifade olunur*/
+}
+
+.fifth-box img {
+    width: 100%;
+    /* Sekil boxdan kenar cixmasin boxun hamisini tutsun deye width 100 veririk */
+    vertical-align: bottom;
+    /*asagidan mesafeni yox edir*/
+}
+
+.boxText {
+    position: absolute;
+    bottom: 20%;
+    left: 20px;
+    color: white;
+}
+
+.overlay {   /*bulaniq*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(29 128 159 / 90%);
+    /*yuxaridakilar overlayda hemise olur*/
+    opacity: 0;
+    transition: .8s;
+}
+
+.fifth .fifth-box:hover .overlay {
+    opacity: 0.9;
+}
+
+.fourth{
+    background-color: rgb(29, 128, 159);
+    text-align: center;
+    padding: 8rem 0;
+}
+
+.fourth h2 {
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+
+.click {
+    color: #000000;
+    background-color: #F8F9FA;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.look {
+    color: #FFFFFF;
+    background-color: #212529;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.finish {
+    text-align: center;
+    color: #6C757D;
+    padding: 5rem 0;
+}
+
+.services {
+    background-color: #1D809F;
+    padding: 5rem 0;
+    overflow: hidden;
+}
+
+.text {
+    text-align: center;
+}
+
+.services .text h3 {
+    color: #ECB807;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.services .text h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.boxs .box {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.boxs .box h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.boxs .box p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
